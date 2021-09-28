@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -el
+set -e
 
 # Copy inputs into correctly-named environment variables
 export GH_TOKEN="${INPUT_GITHUB_TOKEN}"
