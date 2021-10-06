@@ -18,4 +18,5 @@ git config --global user.email "action@github.com"
 
 # Run Semantic Release
 /semantic-release/.venv/bin/python -m semantic_release publish -v DEBUG \
+  "${INPUT_BUMP}" \
   -D commit_author="github-actions <action@github.com>"
