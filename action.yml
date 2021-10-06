@@ -19,7 +19,10 @@ inputs:
   pypi_password:
     description: 'Password to the account specified in pypi_username'
     required: false
-
+  bump:
+    description: 'Bump version of package'
+    required: false 
+    
 runs:
   using: 'docker'
   image: 'Dockerfile'
